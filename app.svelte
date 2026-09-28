@@ -31,6 +31,7 @@ import '@fontsource/ibm-plex-mono/400.css';
 	<h1 onclick={() => set(2)}> EC's </h1>
 	<h1 onclick={() => set(3)}> academics </h1>
 	<h1 onclick={() => set(4)}> socials</h1>
+	<h1 onclick={() => set(5)}> pictures </h1>
 </header>
 
 
@@ -87,7 +88,10 @@ import '@fontsource/ibm-plex-mono/400.css';
 		</li>
 	{/each}
 </ul>
-
+{:else if curr == 5} 
+<h1> Picture </h1> 
+<img src="https://images.chesscomfiles.com/uploads/v1/user/81012526.90bad6d0.200x200o.71052a7b768a.jpeg/> 
+<img src="https://www.springnectaracademy.org/uploads/1/7/2/9/17292304/01-0289-09242023-2_orig.jpg"/>
 {/if}
 </main>
 
